@@ -84,7 +84,10 @@ sudo apt install build-essential dkms linux-headers-$(uname -r)
 sudo apt install -y gparted
 
 # Installing i3 (way easier than DWM)
-sudo apt install i3
+sudo apt install -y i3
+
+# rofi application launcher (looks better than dmenu and it's just as light)
+sudo apt install -y rofi
 
 # Cleaning up
 sudo apt autoremove -y
