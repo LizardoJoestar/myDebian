@@ -1,6 +1,9 @@
 # Thinkpad 11e broadcom 4352 drivers
 sudo apt install -y b43-fwcutter bluez-firmware broadcom-sta-dkms firmware-b43-installer
 
+# Thinkpad x230 intel centrino wireless-n 2200 drivers (default wifi card)
+sudo apt install -y firmware-iwlwifi
+
 # xorg display server installation
 sudo apt install -y xorg
 
