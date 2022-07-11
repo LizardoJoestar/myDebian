@@ -1,5 +1,5 @@
 # Thinkpad 11e broadcom 4352 drivers
-sudo apt install -y b43-fwcutter bluez-firmware broadcom-sta-dkms firmware-b43-installer
+sudo apt install -y b43-fwcutter broadcom-sta-dkms firmware-b43-installer
 
 # Thinkpad x230 intel centrino wireless-n 2200 drivers (default wifi card)
 sudo apt install -y firmware-iwlwifi
@@ -28,6 +28,9 @@ sudo systemctl enable acpid
 # Terminal (eg. terminator,kitty,xfce4-terminal)
 sudo apt install -y kitty
 
+# USB automounter
+sudo apt install udiskie
+
 # Sound packages
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa
 
@@ -39,7 +42,7 @@ sudo apt install -y neofetch htop
 
 # Printing and bluetooth (if needed)
 sudo apt install -y cups
-sudo apt install -y bluez blueman
+# sudo apt install -y bluez blueman
 sudo apt install -y system-config-printer
 
 sudo systemctl enable bluetooth
@@ -65,6 +68,15 @@ sudo apt install -y vim
 
 # Image viewer
 sudo apt install -y sxiv
+
+# Music players
+sudo apt install -y mpv
+
+# Terminal command help (tldr style)
+sudo apt install -y tldr
+
+# OpenSSH server
+sudo apt install -y openssh-server
 
 # Install fonts
 sudo apt install fonts-font-awesome fonts-powerline fonts-ubuntu fonts-liberation2 fonts-liberation fonts-terminus
